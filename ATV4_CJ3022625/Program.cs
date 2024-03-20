@@ -1,4 +1,6 @@
-﻿namespace ATV4_CJ3022625
+﻿using System.Diagnostics;
+
+namespace ATV4_CJ3022625
 {
     internal class Program
     {
@@ -49,6 +51,10 @@
                     Console.WriteLine("Divisão");
                     d = n / n1;
                     Console.WriteLine("Resultado = {0}", d);
+                    break;
+
+               default:
+                    Console.WriteLine("Opção inválida");
                     break;
             }
         }
